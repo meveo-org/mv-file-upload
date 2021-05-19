@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>mv-input</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/meveo-org/mv-theme@master/css/meveo-theme.css"
+    />
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://front.meveo.org/images/favicon.ico"
+    />
+    <style>
+      @font-face {
+        font-family: 'Font Awesome 5 Free';
+        font-style: normal;
+        font-weight: 900;
+        font-display: auto;
+        src: url("https://cdn.jsdelivr.net/gh/meveo-org/mv-font-awesome@master/fonts/fa-solid-900.eot");
+        src: url("https://cdn.jsdelivr.net/gh/meveo-org/mv-font-awesome@master/fonts/fa-solid-900.eot?#iefix") format("embedded-opentype"),
+          url("https://cdn.jsdelivr.net/gh/meveo-org/mv-font-awesome@master/fonts/fa-solid-900.woff2") format("woff2"),
+          url("https://cdn.jsdelivr.net/gh/meveo-org/mv-font-awesome@master/fonts/fa-solid-900.woff") format("woff"),
+          url("https://cdn.jsdelivr.net/gh/meveo-org/mv-font-awesome@master/fonts/fa-solid-900.ttf") format("truetype"),
+          url("https://cdn.jsdelivr.net/gh/meveo-org/mv-font-awesome@master/fonts/fa-solid-900.svg#fontawesome") format("svg");
+      }
+    </style>
+    <script
+      defer
+      src="https://cdn.jsdelivr.net/gh/meveo-org/mv-dependencies@master/es-module-shims/es-module-shims.min.js"
+    ></script>
+    <script type="importmap-shim">
+      {
+        "imports": {
+          "lit-element": "https://cdn.jsdelivr.net/gh/meveo-org/mv-dependencies@master/lit-element.js",
+          "mv-button": "https://cdn.jsdelivr.net/gh/meveo-org/mv-button@master/mv-button.js",
+          "mv-container": "https://cdn.jsdelivr.net/gh/meveo-org/mv-container@master/mv-container.js",
+          "mv-font-awesome": "https://cdn.jsdelivr.net/gh/meveo-org/mv-font-awesome@master/mv-font-awesome.js",
+          "mv-input": "https://cdn.jsdelivr.net/gh/meveo-org/mv-input@master/mv-input.js"
+        }
+      }
+    </script>
+    <script type="module-shim" src="./demo.js"></script>
+  </head>
+
+  <body>
+    <h1>MvFileUpload Demo</h1>
+    <mv-file-upload-demo></mv-file-upload-demo>
+  </body>
+</html>
