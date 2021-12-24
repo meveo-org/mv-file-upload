@@ -1,6 +1,6 @@
 import { LitElement, html, css } from "lit-element";
-import "mv-button";
-import "mv-font-awesome";
+import "@meveo-org/mv-button";
+import "@meveo-org/mv-font-awesome";
 
 export class MvFileUpload extends LitElement {
   static get properties() {

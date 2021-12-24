@@ -1,0 +1,29 @@
+{
+  "name": "@meveo-org/mv-file-upload",
+  "version": "1.0.0",
+  "description": "MvFileUpload is a Meveo file upload component based on lit-element.",
+  "main": "mv-file-upload.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "serve": "es-dev-server --node-resolve --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meveo-org/mv-file-upload.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meveo-org/mv-file-upload/issues"
+  },
+  "homepage": "https://github.com/meveo-org/mv-file-upload#readme",
+  "dependencies": {
+    "@meveo-org/mv-button": "^1.0.0",
+    "@meveo-org/mv-font-awesome": "^1.0.0"
+  },
+  "devDependencies": {
+    "es-dev-server": "^1.46.1"
+  }
+}
